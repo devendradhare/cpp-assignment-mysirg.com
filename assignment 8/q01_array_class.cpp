@@ -6,13 +6,11 @@ class array
 {
 private:
     int arr[10];
-
 public:
     char inputArrayElements()
     {
         for (int i = 0; i < 10; i++)
             cin >> arr[i];
-        return 0;
     }
     int findMaxElement()
     {
@@ -88,12 +86,12 @@ int main()
 
     cout << "max = " << a1.findMaxElement() << endl;
     cout << "min = " << a1.findMinElement() << endl;
-    cout << "a1 = " << a1.display() << endl;
+    cout << "a1's data = " << a1.display() << endl;
     a1.editElement(2, 4);
-    cout << "a1 = " << a1.display() << endl;
+    cout << "a1 after edit = " << a1.display() << endl;
     a1.sort();
-    cout << "a1 sort " << a1.display() << endl;
-    cout << "a1 sum = " << a1.sumOfElement()<<endl;
-    cout << "a1 average " << a1.averageOfElement()<<endl;
+    cout << "a1 after sort " << a1.display() << endl;
+    cout << "a1 array's sum = " << a1.sumOfElement()<<endl;
+    cout << "a1 array's average " << a1.averageOfElement()<<endl;
     getch();
 }
