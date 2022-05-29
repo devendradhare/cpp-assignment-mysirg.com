@@ -6,9 +6,11 @@ class Operations
 private:
     static pi = 3.14;
 public:
-    void area()
+    void area(int a,int b)
+    {
+        
+    }
 };
-
 
 int main()
 {
