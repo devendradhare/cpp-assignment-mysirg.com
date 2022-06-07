@@ -35,13 +35,13 @@ public:
         breadth = B;
         height = H;
     }
-    setDimensions(float L, float B, float H)
+    void setDimensions(float L, float B, float H)
     {
         length = L;
         breadth = B;
         height = H;
     }
-    showDimension()
+    void showDimension()
     {
         cout << "\n"
              << "length = " << length << " breadth = " << breadth << " height = " << height;
