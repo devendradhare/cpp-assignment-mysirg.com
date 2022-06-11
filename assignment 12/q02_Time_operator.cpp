@@ -30,16 +30,14 @@ public:
             }
             if (min < 0)
             {
-                sec = (hour*60*60)+(min*60)+sec;
-                cout<<"m "<<sec;
+                sec = (hour * 60 * 60) + (min * 60) + sec;
                 hour = 0;
                 min = 0;
                 continue;
             }
             if (sec < 0)
             {
-                sec = (hour*60*60)+(min*60)+sec;
-                cout<<"s "<<sec;
+                sec = (hour * 60 * 60) + (min * 60) + sec;
                 hour = 0;
                 min = 0;
                 continue;
@@ -73,20 +71,20 @@ public:
 int main()
 {
     Time t1, t2, t3, t4;
-    t1.setTime(10000000000000, 0, 0);
-    cout<<"t1 = ";
+    t1.setTime(10, 0, 0);
+    cout << "t1 = ";
     t1.showTime();
-    t2.setTime(0, 0, 1);
-    cout<<"t2 = ";
+    t2.setTime(0, 0, 3);
+    cout << "t2 = ";
     t2.showTime();
     t3 = t1 + t2;
-    cout<<"t1+t2 = ";
+    cout << "t1+t2 = ";
     t3.showTime();
     t4 = t1 - t2;
-    cout<<"t1-t2 = ";
+    cout << "t1-t2 = ";
     t4.showTime();
     t3 = t4 + t2;
-    cout<<"t4+t2 = ";
+    cout << "t4+t2 = ";
     t3.showTime();
     getch();
 }
