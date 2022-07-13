@@ -35,6 +35,7 @@ public:
 int main()
 {
     Result s1(3,97);
+    s1.setResult(23,12,3,45,10);
     s1.showResult();
 
     getch();

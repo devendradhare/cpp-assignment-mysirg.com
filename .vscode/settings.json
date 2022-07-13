@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "q02_write_a_function_to_calculate_circumference_of_a_circle_TSRS.C": "cpp"
+        "q02_write_a_function_to_calculate_circumference_of_a_circle_TSRS.C": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp"
     }
 }
